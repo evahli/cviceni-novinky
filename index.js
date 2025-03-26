@@ -1,0 +1,12 @@
+const bodyElement = document.querySelector("body")
+bodyElement.style.backgroundColor = ("#e9e9e9")
+const newsElement = document.querySelector(".news")
+newsElement.style.backgroundColor = ("white")
+newsElement.style.maxWidth = ("60rem")
+const headerElement = document.querySelector("h1")
+headerElement.classList.add("news__title")
+headerElement.textContent = ("Aktualni novinky")
+const zprava1 = document.querySelector("#zprava1")
+zprava1.classList.add("post--main")
+const obrazek3 = document.querySelector("#zprava3>img")
+obrazek3.src = "images/zprava3-novy.jpg"
